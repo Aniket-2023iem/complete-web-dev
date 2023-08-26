@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript string functions</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script>
+        var str= "this is string";
+        console.log(str);
+        var position = str.lastIndexOf('is');
+        console.log(position);
+        var substr = str.slice(1,5);
+        console.log(substr);
+        var replaced = str.replace('string','harry');
+        console.log(str);
+        console.log(replaced);
+
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        var concat= str.concat('New String');
+        console.log(concat);
+
+        var char2 = str.charAt(2);
+        console.log(char2);
+
+        var char3 = str.charCodeAt(2);
+        console.log(char2);
+
+        console.log(str[8]);
+
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url(flag.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+.container{
+    color: rgba(191, 255, 1, 0.811);
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
+.container h1{
+    display: inline-block;
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid green;
+    margin: 33px ;
+    padding: 9px 0;
+    
+}
+.box{
+    width : 100%;
+    margin: 20px 0px;
+    border-bottom: 3px solid orangered;
+    color: aliceblue;
+}
+.box input{
+    color: rgb(3, 255, 217);
+    background:none ;
+    width: 75%;
+    margin: 12px 0px;
+    padding: 3px 7px;
+    font-size: 20px;
+    border: none ;
+    outline: none;
+}
+.box i{
+    width:25px;
+    text-align: center;
+
+}
+
+.btn{
+    background: none;
+    color: rgb(238, 249, 245);
+    cursor: pointer;
+    outline: none;
+    width: 23%;
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 40px;
+    border: 3px solid rgb(70, 55, 19);
+}
+.btn:hover{
+    background-color: rgba(209, 181, 19, 0.863);
+}

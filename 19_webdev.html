@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <style>
+        *{
+            text-align: center;
+            
+
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: inherit;
+        }
+        .container{
+            width:800px;
+            border:3px solid rebeccapurple;
+            margin: 34px auto;
+
+        }
+        .item{
+            border:3px solid greenyellow;
+            margin: 12px 14px;
+            padding: 14px 8px;
+            background: rgb(151, 134, 186);
+        }
+        #computer{
+            float:inline-start;
+            width: 40%;
+
+        }
+        #fruit{
+            /*float: right;*/
+            clear: both;
+            width: 40%;
+
+        }
+        #stationary{
+            /*float: left;*/
+            clear: both;
+            width: 90%;
+
+        }
+        p,h1{
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">WELCOME TO STORE
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis fugiat libero, labore ut, vitae ipsa, ipsum quidem distinctio deserunt quod omnis dolores eligendi voluptas?</p>
+        </div>
+        <div id="comuter" class="item">
+            <h3>computer</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ad dolores harum cumque accusantium accusamus ea unde laudantium ducimus, illum quidem id reprehenderit dolor?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, asperiores molestias! Eum quibusdam dolores nihil, aut repellat nobis ea accusamus repellendus pariatur laboriosam voluptate!</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
