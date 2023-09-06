@@ -1,12 +1,12 @@
 console.log("hello world")
-function greet(name, text="gandu"){
+function greet(name, text="ok"){
     console.log(name + " " + text);
 } 
 function add(a, b , c){
     let d = a + b + c;
     return d;
 }
-let text1 = "ki re banchod"
+let text1 = "ki re"
 let name = "harry";
 let name1 = "sagar";
 greet(name, text1);
